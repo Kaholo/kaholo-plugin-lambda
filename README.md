@@ -26,3 +26,10 @@ This method will create a new AWS Lambda function. This method is based on [crea
 4. Function name - The name of the Lambda function.
 5. Handler - The name of the method within your code that Lambda calls to execute your function. The format includes the file name. It can also include namespaces and other qualifiers, depending on the runtime.
 6. Runtime - The identifier of the function's runtime such as nodejs10.x or python3.7
+
+## Method: Update function configuration
+This method will update function according to the JSON sent to the function.
+
+### Parameters:
+1. Config file JSON format from code layer as appears in [documentation](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/Lambda.html#updateFunctionConfiguration-property).
+2. Region
